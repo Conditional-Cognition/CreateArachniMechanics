@@ -11,3 +11,7 @@ Gallery:
 ![Flinching](https://raw.githubusercontent.com/Conditional-Cognition/CreateArachniMechanics/d52b0b9fd72c0049c5c15031004506f7d27465cf/SpidertronFiles/damage_pose.png)
 
 ^ _Flinching (Made after Default Posing)_ ^
+
+![T-Pose](https://raw.githubusercontent.com/Conditional-Cognition/CreateArachniMechanics/d52b0b9fd72c0049c5c15031004506f7d27465cf/SpidertronFiles/t_pose.png)
+
+^ _T-Pose from [Blockbench](https://blockbench.net/)_ ^
