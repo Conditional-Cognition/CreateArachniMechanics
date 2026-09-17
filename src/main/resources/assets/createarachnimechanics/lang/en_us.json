@@ -1,0 +1,13 @@
+{
+  "itemGroup.createarachnimechanics": "Example Mod Tab",
+  "block.createarachnimechanics.example_block": "Example Block",
+  "item.createarachnimechanics.example_item": "Example Item",
+
+  "createarachnimechanics.configuration.title": "Create: Arachni-mechanics Configs",
+  "createarachnimechanics.configuration.section.createarachnimechanics.common.toml": "Create: Arachni-mechanics Configs",
+  "createarachnimechanics.configuration.section.createarachnimechanics.common.toml.title": "Create: Arachni-mechanics Configs",
+  "createarachnimechanics.configuration.items": "Item List",
+  "createarachnimechanics.configuration.logDirtBlock": "Log Dirt Block",
+  "createarachnimechanics.configuration.magicNumberIntroduction": "Magic Number Text",
+  "createarachnimechanics.configuration.magicNumber": "Magic Number"
+}
