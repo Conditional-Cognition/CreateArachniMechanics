@@ -49,5 +49,12 @@ Adds a Spidertron, inspired by that of from Factorio.
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.${mod_id}]]
+    modId="create"
+    type="required"
+    versionRange="6.0.10"
+    ordering="NONE"
+    side="BOTH"
+
 #[features.${mod_id}]
 #openGLVersion="[3.2,)"

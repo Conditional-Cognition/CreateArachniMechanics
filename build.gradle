@@ -20,6 +20,16 @@ sourceSets.main.resources {
 }
 
 repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                url "https://cursemaven.com"
+            }
+        }
+        filter {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 base {
@@ -77,6 +87,7 @@ configurations {
 }
 
 dependencies {
+    implementation "curse.maven:create-328085:7963363"
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {

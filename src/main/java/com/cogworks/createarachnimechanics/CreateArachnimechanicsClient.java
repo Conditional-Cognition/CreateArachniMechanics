@@ -1,12 +1,13 @@
 package com.cogworks.createarachnimechanics;
 
-import net.minecraft.client.Minecraft;
+import com.cogworks.createarachnimechanics.registry.ModEntities;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
@@ -20,6 +21,10 @@ public class CreateArachnimechanicsClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         CreateArachnimechanics.LOGGER.info("HELLO FROM CLIENT SETUP");
-        CreateArachnimechanics.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+    }
+
+    public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
+        event.registerEntityRenderer(ModEntities.SPIDERTRON, SpidertronRenderer::new);
+        event.registerEntityRenderer(ModEntities.SPIDERTRON_SEGMENT, SpidertronRenderer::new);
     }
 }
